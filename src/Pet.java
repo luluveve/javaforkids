@@ -12,7 +12,8 @@ public class Pet {
         System.out.println("I'm hungry. Let's eat");
     }
 
-    public void talk (String aWord) {
+    public String talk (String aWord) {
         String petResponse = "Ok.Ok." + aWord;
+        return petResponse;
     }
 }
